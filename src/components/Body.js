@@ -21,22 +21,22 @@ const appRouter = createBrowserRouter([
 
 const Body = () => {
   const dispatch=useDispatch();
-  useEffect(()=>{
-    onAuthStateChanged(auth, (user) => {
+  // useEffect(()=>{
+  //   onAuthStateChanged(auth, (user) => {
       
-      if (user) {
-        // User is signed in, see docs for a list of available properties
-        const {uid,email,displayName} = user;
-        // const dispatch=useDispatch();
-        dispatch(addUser({uid,email,displayName}));
-        // ...
-      } else {
-        // const dispatch=useDispatch();
-        dispatch(removeUser());
-        // ...
-      }
-    });
-  },[])
+  //     if (user) {
+  //       // User is signed in, see docs for a list of available properties
+  //       const {uid,email,displayName} = user;
+  //       // const dispatch=useDispatch();
+  //       dispatch(addUser({uid,email,displayName}));
+  //       // ...
+  //     } else {
+  //       // const dispatch=useDispatch();
+  //       dispatch(removeUser());
+  //       // ...
+  //     }
+  //   });
+  // },[])
   return <RouterProvider router={appRouter} />;
 };
 

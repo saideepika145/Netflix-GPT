@@ -24,6 +24,14 @@
  - create userSlice
 15. Implemented Sign out
 16. updated user profile 
+Bug Fix
+
+17. added constants to file
+18. Registered in TMDB website to get token for API's
+19. Get Data from now playing API of TMDB
+20. Created custom hook 
+21. Planing for main container, secondary container
+23. Build Main container (added video backdrop, movie title)
 
 
 
@@ -62,6 +70,26 @@
 - Netflix GPT
   - Search bar
   - Movie suggestions
+
+
+
+
+
+
+
+
+### CSS Tips:
+Key Words:
+- Z- index
+- absolute
+- background gradient
+- background opacity
+- aspect-video
+
+
+Scenarios:
+- For making two html blocks overlap use absolute for both the blocks
+
 
 ## Available Scripts
 
