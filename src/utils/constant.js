@@ -18,4 +18,6 @@ export const USER_AVATAR =
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNTY1NmYwMTc0NGFhNDA3OGVjN2EyODViN2FmYzJlYiIsIm5iZiI6MTcyOTMxNTA0MS44OTQyOTIsInN1YiI6IjY3MTMzZjViNjUwMjQ4YjlkYjYxZDg1NCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.z8NzqWDxwwCSzjecDh3LBqrXwXy6DzNe1LRapFomreY'
     }
   };
+
+  export const IMG_CDN="https://image.tmdb.org/t/p/w500"
   

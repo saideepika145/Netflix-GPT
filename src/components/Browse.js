@@ -1,11 +1,15 @@
 import React, { useEffect } from "react";
 import Header from "./Header";
 import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
+import usePopularMovies from "../hooks/usePopularMovies";
+import useUpComingMovies from "../hooks/useUpComingMovies";
 import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
 
 const Browse = () => {
-  useNowPlayingMovies()
+  useNowPlayingMovies();
+  usePopularMovies();
+  useUpComingMovies()
   /*
       *
         - Main Container
@@ -16,7 +20,7 @@ const Browse = () => {
           - list of cards*n
        */
   return (
-    <div>
+    <div  className=" bg-black">
       <Header />
       <MainContainer/>
       <SecondaryContainer/>

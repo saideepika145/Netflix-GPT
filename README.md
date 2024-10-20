@@ -32,7 +32,8 @@ Bug Fix
 20. Created custom hook 
 21. Planing for main container, secondary container
 23. Build Main container (added video backdrop, movie title)
-
+24. added Movie card
+25. added Movie List
 
 
 ## Setting Up Firebase for authentication

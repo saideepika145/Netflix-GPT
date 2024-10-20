@@ -12,7 +12,7 @@ const MainContainer = () => {
     const {title,overview,id}=mainMovie
     // console.log("main moview",title,overview)
   return (
-    <div className=''>
+    <div className='relative h-screen'>
         <VideoBackDrop movieId={id}/>
         <VideoTitle title={title} overview={overview}/>
     </div>
