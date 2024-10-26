@@ -5,11 +5,16 @@ import usePopularMovies from "../hooks/usePopularMovies";
 import useUpComingMovies from "../hooks/useUpComingMovies";
 import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
+import { useSelector } from "react-redux";
+import GPTSearch from "./GPTSearch";
 
 const Browse = () => {
   useNowPlayingMovies();
   usePopularMovies();
-  useUpComingMovies()
+  useUpComingMovies();
+
+  const showGPTSearch = useSelector((store) => store?.gpt?.showGPTSearch);
+  console.log("show",showGPTSearch)
   /*
       *
         - Main Container
@@ -20,11 +25,16 @@ const Browse = () => {
           - list of cards*n
        */
   return (
-    <div  className=" bg-black">
+    <div>
       <Header />
-      <MainContainer/>
-      <SecondaryContainer/>
-      
+      {showGPTSearch ? (
+        <GPTSearch />
+      ) : (
+        <div className="bg-black h-screen">
+          <MainContainer />
+          <SecondaryContainer />
+        </div>
+      )}
     </div>
   );
 };
