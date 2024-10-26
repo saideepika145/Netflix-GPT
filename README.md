@@ -13,19 +13,37 @@
 7. Form Validation
 8. useRef
 9. Added validation for username, password on sign 
-10. Firebase setup
+10. **Firebase setup**
 11. create a sign up user [Firebase API Docs](https://firebase.google.com/docs/auth/web/password-auth)
 12. created sign in API
 13. configure redux (`npm i react-redux`,`npm i -D @reduxjs/toolkit`)
 13. [on Auth state chnaged API firebase]
 (https://firebase.google.com/docs/reference/js/auth.user)
-14. Configure store 
+14. **Configure Redux store**
  - create app Store
  - create userSlice
 15. Implemented Sign out
 16. updated user profile 
+Bug Fix
 
-
+17. added constants to file
+18. Registered in TMDB website to get token for API's
+19. Get Data from now playing API of TMDB
+20. Created custom hook 
+21. Planing for main container, secondary container
+23. Build Main container (added video backdrop, movie title)
+24. added Movie card
+25. added Movie List
+26. Added GPT search bar
+27. GPT Search Page
+28. Multi language in GPT page
+29. Moved API keys to .env to prevent them from being exposed directly in codebase.
+30. **Memoization** : In hooks, caching the results of expensive function calls and reuse them
+31. GPT-search API Key
+32. GPT-search API calls
+33. Fetched GPT movies suggestion from TMDB
+34. Created GPT slice to store movie suggestions
+35. Made UI responsive 
 
 ## Setting Up Firebase for authentication
 
@@ -62,6 +80,28 @@
 - Netflix GPT
   - Search bar
   - Movie suggestions
+
+
+
+
+
+
+
+
+### CSS Tips:
+Key Words:
+- Z- index
+- absolute
+- background gradient
+- background opacity
+- aspect-video
+To make creen height 
+- h-screen object-cover
+
+
+Scenarios:
+- For making two html blocks overlap use absolute for both the blocks
+
 
 ## Available Scripts
 
