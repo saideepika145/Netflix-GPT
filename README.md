@@ -17,8 +17,7 @@
 11. create a sign up user [Firebase API Docs](https://firebase.google.com/docs/auth/web/password-auth)
 12. created sign in API
 13. configure redux (`npm i react-redux`,`npm i -D @reduxjs/toolkit`)
-13. [on Auth state chnaged API firebase]
-(https://firebase.google.com/docs/reference/js/auth.user)
+13. [on Auth state changed API firebase](https://firebase.google.com/docs/reference/js/auth.user)
 14. **Configure Redux store**
  - create app Store
  - create userSlice
@@ -27,14 +26,14 @@
 Bug Fix
 
 17. added constants to file
-18. Registered in TMDB website to get token for API's
+18. Registered in TMDB website to get token for API's [TMDB API Docs ](https://developer.themoviedb.org/reference/search-movie)
 19. Get Data from now playing API of TMDB
 20. Created custom hook 
 21. Planing for main container, secondary container
 23. Build Main container (added video backdrop, movie title)
 24. added Movie card
 25. added Movie List
-26. Added GPT search bar
+26. Added GPT search bar , installed (`npm i open-ai`)
 27. GPT Search Page
 28. Multi language in GPT page
 29. Moved API keys to .env to prevent them from being exposed directly in codebase.
